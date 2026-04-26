@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #c9c3b5;

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.skills-section {
+    color: #fff;
+    background-color: #384b5ebd;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 50rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+P:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 48rem) {
+    .section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 2rem;
+    width: 100%;
+    max-width: 60rem;
+    justify-content: center;
+    justify-items: center;
+    }
+
+    .code-skills, .toolbox-skills, .upcoming-skills, .more-skills {
+        text-align: ce;
+    }
+
+    .section-title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    }
+
+    h3 {
+    font-size: 2rem;
+    }
+    
+    p {
+    font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .section-grid {
+
+    }
+}
