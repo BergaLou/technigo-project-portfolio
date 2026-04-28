@@ -15,7 +15,7 @@ body, html {
 
 .skills-section {
     color: #fff;
-    background-color: #384b5ebd;
+    background-color: #4c5d6b;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     position: relative;
@@ -55,7 +55,7 @@ p {
     margin-bottom: 1.2rem;
 }
 
-P:last-child {
+p:last-child {
     margin-bottom: 0;
 }
 
@@ -71,7 +71,7 @@ P:last-child {
     }
 
     .code-skills, .toolbox-skills, .upcoming-skills, .more-skills {
-        text-align: ce;
+    text-align: center;
     }
 
     .section-title {
@@ -90,6 +90,17 @@ P:last-child {
 
 @media (min-width: 64rem) {
     .section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem 2rem;
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    }
 
+    .code-skills, .toolbox-skills, .upcoming-skills, .more-skills {
+    text-align: center;
     }
 }

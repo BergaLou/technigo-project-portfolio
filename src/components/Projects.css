@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap');
+
+* {
+
+}
+
+body, html {
+    background-color: #c9c3b5;
+    color: #fff;
+}
+
+.featured-projects {
+    position: relative;
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.project-card img {
+    width: 100%;
+    height: 12rem;
+}
+
+.custom-shape-divider-top-1777382518 {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 20;
+}
+
+.custom-shape-divider-top-1777382518 svg {
+    position: relative;
+    display: block;
+    width: calc(221% + 1.3px);
+    height: 101px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1777382518 .shape-fill {
+    fill: #4c5d6b;
+}

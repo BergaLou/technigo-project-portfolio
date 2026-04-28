@@ -1,58 +1,58 @@
 {
   "projects": [
     {
-      "name": "News site",
-      "image": "",
+      "name": "Furpulse",
+      "image": "/furpulse.png",
       "tags": [
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://furpulse.netlify.app/",
+      "github": "https://github.com/BergaLou/technigo-project-news-site"
     },
     {
-      "name": "Business site",
-      "image": "",
+      "name": "Beans Co.",
+      "image": "/beans.png",
       "tags": [
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://beansbrews.netlify.app/",
+      "github": "https://github.com/BergaLou/Newproject2.0"
     },
     {
-      "name": "Pizzabot",
-      "image": "",
+      "name": "Nilsbergs Pizzeria",
+      "image": "/nilsbergsp.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://nilsbergspizzeria.netlify.app/",
+      "github": "https://github.com/BergaLou/technigo-project-pizzabot"
     },
     {
-      "name": "Library",
-      "image": "",
+      "name": "Zen Chi",
+      "image": "/zenchi.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://zen-chi.netlify.app/",
+      "github": "https://github.com/BergaLou/technigo-project-library"
     },
     {
       "name": "Weather app",
-      "image": "",
+      "image": "/weather.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://seeup.netlify.app/",
+      "github": "https://github.com/BergaLou/technigo-project-weather-app"
     }
   ]
 }
