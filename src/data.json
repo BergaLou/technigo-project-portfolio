@@ -1,8 +1,10 @@
 {
   "projects": [
     {
-      "name": "Furpulse",
+      "id": 1,
+      "name": "Furpulse built in HTML & CSS",
       "image": "/furpulse.png",
+      "description": "My goal was to create an international platform with a meaningful purpose - in this case, animal adoption. I wanted to build something useful and user-friendly, choosing a bright and hopeful aesthetic to balance out the heavy news cycle we often see in the world today.",
       "tags": [
         "HTML5",
         "CSS3"
@@ -11,8 +13,10 @@
       "github": "https://github.com/BergaLou/technigo-project-news-site"
     },
     {
-      "name": "Beans Co.",
+      "id": 2,
+      "name": "Beans Co. built in HTML & CSS",
       "image": "/beans.png",
+      "description": "This project was born from a sudden burst of inspiration. In my excitement to bring the vision to life, I prioritized the desktop layout and learned a valuable lesson about the importance of a 'mobile-first' approach. It stands as a reminder for me to slow down, plan thoroughly, and always consider the responsive experience from the very first line of code.",
       "tags": [
         "HTML5",
         "CSS3"
@@ -21,8 +25,10 @@
       "github": "https://github.com/BergaLou/Newproject2.0"
     },
     {
-      "name": "Nilsbergs Pizzeria",
+      "id": 3,
+      "name": "Nilsbergs Pizzeria in JavaScript",
       "image": "/nilsbergsp.png",
+      "description": "This project focuses on interactive UI through a custom-built ordering bot. I replaced the original interface with a themed pizza background to create a more immersive and appetizing experience. It was a great exercise in using CSS to transform a basic template into a brand-specific tool, focusing on how visual cues can enhance the ordering process.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -32,8 +38,10 @@
       "github": "https://github.com/BergaLou/technigo-project-pizzabot"
     },
     {
-      "name": "Zen Chi",
+      "id": 4,
+      "name": "Zen Chi built in HTML, CSS & Javascript",
       "image": "/zenchi.png",
+      "description": "Zen Chi was a project focused on finding the balance between clean, organized code and a calm, minimalist aesthetic. It served as my introduction to CSS Grid and Flexbox, a challenging but rewarding learning curve. This project highlights my ability to implement complex layouts while maintaining a serene and clutter-free user interface",
       "tags": [
         "HTML5",
         "CSS3",
@@ -43,8 +51,10 @@
       "github": "https://github.com/BergaLou/technigo-project-library"
     },
     {
-      "name": "Weather app",
+      "id": 5,
+      "name": "Weather app built in CSS, JS & APIs",
       "image": "/weather.png",
+      "description": "While the initial project focused on static weather data for Stockholm, I chose to expand the functionality by integrating the Geolocation API. This allows the app to automatically detect the user's current position to provide a personalized, real-time forecast for their specific location. It was a great challenge in handling asynchronous data and API integration.",
       "tags": [
         "HTML5",
         "CSS3",

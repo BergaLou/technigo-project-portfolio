@@ -31,6 +31,7 @@ function Skills() {
             <p>Typescript</p>
             <p>AI Tools</p>
             <p>Adobe Illustrator</p>
+            <p>Tailwind CSS</p>
             </div>
             
             <div className="more-skills">

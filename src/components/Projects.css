@@ -3,23 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap');
 
 * {
-
+margin: 0;
+box-sizing: border-box;
 }
 
 body, html {
     background-color: #c9c3b5;
     color: #fff;
-}
-
-.featured-projects {
-    position: relative;
-    width: 100%;
-    padding-top: 8rem;
-}
-
-.project-card img {
-    width: 100%;
-    height: 12rem;
 }
 
 .custom-shape-divider-top-1777382518 {
@@ -29,7 +19,7 @@ body, html {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    z-index: 20;
+    z-index: 10;
 }
 
 .custom-shape-divider-top-1777382518 svg {
@@ -42,4 +32,156 @@ body, html {
 
 .custom-shape-divider-top-1777382518 .shape-fill {
     fill: #4c5d6b;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    pointer-events: all;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 2rem;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;
+}
+
+.featured-projects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8rem;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.project-card {
+    position: relative;
+    justify-items: center;
+    flex: 0 0 20rem;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    width: 20rem;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-card h3 {
+    margin-top: 1rem;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    justify-self: center;
+}
+
+.project-card p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+    font-family: 'Antonio', sans-serif;
+    filter: drop-shadow(0px 5px 4px #00000050);
+}
+
+.live-btn {
+    background-color: #4c5d6b;
+    color: #fff;
+}
+
+.code-btn {
+    background-color: #c9c3b5;
+    border: 0.2rem solid #4c5d6b;
+    color: #4c5d6b;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.techintro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 4rem 12rem 4rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.5rem;
+}
+
+.techQ {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: 'Abel', sans-serif;
+    text-transform: none;
+}
+
+.custom-shape-divider-bottom-1777394725 {
+    position: absolute;
+    bottom: -0.1rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 10;
+}
+
+.custom-shape-divider-bottom-1777394725 svg {
+    position: relative;
+    display: block;
+    width: calc(205% + 1.3px);
+    height: 146px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1777394725 .shape-fill {
+    fill: #283440;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1777394725 svg {
+        width: calc(144% + 1.3px);
+        height: 146px;
+    }
 }

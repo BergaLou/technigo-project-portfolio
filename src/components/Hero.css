@@ -96,7 +96,6 @@ z-index: 2;
 }
 
 .hero-text-wrapper {
-    margin-top: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -122,7 +121,13 @@ z-index: 2;
     justify-content: center;
     justify-content: flex-end;
     width: 100%;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.342));
     z-index: 4;
+}
+
+.social-links img, .social-links svg {
+    filter: brightness(0) invert(1); 
+    width: 3rem;
 }
 
 .hero-text-wrapper {
@@ -161,7 +166,7 @@ z-index: 2;
 
 .custom-shape-divider-bottom-1777381986 {
     position: absolute;
-    bottom: 0;
+    bottom: -0.1rem;
     left: 0;
     width: 100%;
     overflow: hidden;

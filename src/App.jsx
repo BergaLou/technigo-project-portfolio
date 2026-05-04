@@ -3,14 +3,18 @@ import data from "./data.json";
 import Hero from './components/Hero.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
+import Footer from './components/Footer.jsx';
 import './App.css';
 
-export const App = () => {
-  return <div>
+const App = () => {
+  return (
+    <div>
     <Hero />
     <Skills />
     <Projects />
-  </div>
+    <Footer />
+    </div>
+  );
 }
 
 export default App;
