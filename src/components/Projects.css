@@ -34,20 +34,43 @@ body, html {
     fill: #4c5d6b;
 }
 
+.projects-carousel-root {
+    position: relative;
+    width: 90%;
+    max-width: 65rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
 .projects-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow-x: auto;
-    pointer-events: all;
+    width: 100%;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 2rem;
-    padding: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 2rem 0;
+    scrollbar-width: none;
 }
 
 .projects-container::-webkit-scrollbar {
@@ -62,7 +85,7 @@ body, html {
     justify-content: center;
     width: 100%;
     padding-top: 8rem;
-    overflow: hidden;
+    overflow: clip;
     gap: 1rem;
 }
 

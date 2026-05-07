@@ -1,31 +1,27 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import data from '../data.json';
 import "./Projects.css";
+import { Carousel } from "./application/carousel/carousel-base";
 
 
 function Projects() {
-    const scrollRef = useRef(null);
-
-    useEffect(() => {
-    const element = scrollRef.current;
-    if (!element) return;
-
-    const handleWheel = (e) => {
-    e.preventDefault();
-    element.scrollLeft += e.deltaY;
-    };
-
-    element.addEventListener("wheel", handleWheel, { passive: false });
-    return () => element.removeEventListener("wheel", handleWheel);
-    }, []);
-
     return (
     <div className="projects-wrapper">
         <section className="featured-projects">
         <h2 className="section-title">Featured Projects</h2>
-          <div className="projects-container" ref={scrollRef}>
+          <Carousel.Root className="projects-carousel-root">
+
+            <Carousel.PrevTrigger className="carousel-btn prev">
+                <span>&lt;</span>
+                </Carousel.PrevTrigger>
+                
+                <Carousel.NextTrigger className="carousel-btn next">
+                    <span>&gt;</span>
+                </Carousel.NextTrigger>
+
+            <Carousel.Content className="projects-container">
             {data.projects.map((project) => (
-            <div key={project.id} className="project-card">
+            <Carousel.Item key={project.id} className="project-card">
             <img src={project.image} alt={project.name} />
             <h3>{project.name}</h3>
             <p className="project-description">{project.description}</p>
@@ -33,9 +29,10 @@ function Projects() {
             <a href={project.netlify} target="_blank" rel="noreferrer" className="btn live-btn">Live Demo</ a>
             <a href={project.github} target="_blank" rel="noreferrer" className="btn code-btn">View Code</ a>
             </div>
-            </div>
+            </Carousel.Item>
         ))}
-        </div> 
+        </Carousel.Content>
+        </Carousel.Root> 
         
         <div className="custom-shape-divider-top-1777382518">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
