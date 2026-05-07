@@ -1,5 +1,8 @@
 import React from 'react';
 import './Hero.css'
+import profilpic from '../../assets/profil4.png';
+import linkedinlogo from '../../assets/Linkedin2.png';
+import githublogo from '../../assets/Github2.png';
 
 function Hero() {
     return (
@@ -7,7 +10,7 @@ function Hero() {
         <section className="hero-container">
             
             <div className="hero-top-row">
-            <img src="./assets/profil4.png" alt="My profile pic of me" className="hero-image"
+            <img src={profilpic} alt="My profile pic of me" className="hero-image"
             />
             <h2 className="hero-name">Clara Högberg</h2>
     </div> 
@@ -24,13 +27,13 @@ function Hero() {
 
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/bergalou" target="_blank" rel="noreferrer" className="social-link">
-                <img src="./assets/Linkedin2.png"
+                <img src={linkedinlogo}
                 alt="Linkedin"
                 className="social-icon"
                 />
                 </a>
                 <a href="https://github.com/BergaLou" target="_blank" rel="noreferrer" className="social-link">
-                <img src="./assets/Github2.png"
+                <img src={githublogo}
                 alt="Github"
                 className="social-icon"
                 />

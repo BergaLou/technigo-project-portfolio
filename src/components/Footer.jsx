@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import lastphoto from '../../assets/portratt3.png';
+import linkedinlogo from '../../assets/Linkedin2.png';
+import githublogo from '../../assets/Github2.png';
 
 function Footer() {
     return (
@@ -16,13 +19,13 @@ function Footer() {
                     <a href="mailto:Clara.Hogberg1993@gmail.com">clara.hogberg1993@gmail.com</a>
                 <div className="social-links-footer">
                 <a href="https://www.linkedin.com/in/bergalou" target="_blank" rel="noreferrer" className="social-link-footer">
-                <img src="./assets/Linkedin2.png"
+                <img src={linkedinlogo}
                 alt="Linkedin"
                 className="social-icon"
                 />
                 </a>
                 <a href="https://github.com/BergaLou" target="_blank" rel="noreferrer" className="social-link-footer">
-                <img src="./assets/Github2.png"
+                <img src={githublogo}
                 alt="Github"
                 className="social-icon"
                 />
@@ -31,7 +34,7 @@ function Footer() {
                 </div>
             </div>
                 <div className="portfolio-footer-img">
-                    <img src ="./assets/portratt3.png" alt="other pic of me" className="portrait"
+                    <img src ={lastphoto} alt="other pic of me" className="portrait"
                 />
                 </div>
             <div className="signature-wrapper">
