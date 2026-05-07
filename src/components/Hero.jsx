@@ -1,8 +1,8 @@
 import React from 'react';
 import './Hero.css'
 import profilpic from '../../assets/profil4.png';
-import linkedinlogo from '../../assets/Linkedin2.png';
-import githublogo from '../../assets/Github2.png';
+import linkedinlogo from '../../assets/linkedin2.png';
+import githublogo from '../../assets/github2.png';
 
 function Hero() {
     return (

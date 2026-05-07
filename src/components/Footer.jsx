@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import lastphoto from '../../assets/portratt3.png';
-import linkedinlogo from '../../assets/Linkedin2.png';
+import linkedinlogo from '../../assets/linkedin2.png';
 import githublogo from '../../assets/Github2.png';
 
 function Footer() {
