@@ -31,3 +31,4 @@ Adding more complex JavaScript and Backend projects to the carousel.
 ## View it live
 
 https://www.bergaloupf.netlify.app
+https://www.pf.bergalou.workers.dev/
