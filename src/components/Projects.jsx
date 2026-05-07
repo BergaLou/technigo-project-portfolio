@@ -48,7 +48,7 @@ function Projects() {
 
         <section className="techintro">
             <h2 className="tech">Tech</h2>
-            <p className="techQ">HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Node.js, Mongon DB, Web Accessibility, APIs, mob-programming, Github.</p>
+            <p className="techQ">HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Node.js, MongoDB, Web Accessibility, APIs, mob-programming, Github.</p>
         
         <div className="custom-shape-divider-bottom-1777394725">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

@@ -9,7 +9,7 @@
         "HTML5",
         "CSS3"
       ],
-      "netlify": "https://furpulse.netlify.app/",
+      "netlify": "https://furpulse.bergalou.workers.dev",
       "github": "https://github.com/BergaLou/technigo-project-news-site"
     },
     {
@@ -21,7 +21,7 @@
         "HTML5",
         "CSS3"
       ],
-      "netlify": "https://beansbrews.netlify.app/",
+      "netlify": "https://beansco.bergalou.workers.dev",
       "github": "https://github.com/BergaLou/Newproject2.0"
     },
     {
@@ -34,7 +34,7 @@
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "https://nilsbergspizzeria.netlify.app/",
+      "netlify": "https://nilsbergs.bergalou.workers.dev",
       "github": "https://github.com/BergaLou/technigo-project-pizzabot"
     },
     {
@@ -47,7 +47,7 @@
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "https://zen-chi.netlify.app/",
+      "netlify": "https://zenchi.bergalou.workers.dev",
       "github": "https://github.com/BergaLou/technigo-project-library"
     },
     {
@@ -61,7 +61,7 @@
         "JavaScript",
         "APIs"
       ],
-      "netlify": "https://seeup.netlify.app/",
+      "netlify": "https://weather-app.bergalou.workers.dev",
       "github": "https://github.com/BergaLou/technigo-project-weather-app"
     }
   ]

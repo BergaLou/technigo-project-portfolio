@@ -9,40 +9,48 @@ function Skills() {
 
             <div className="code-skills">
             <h3>Code</h3>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>Javascript ES6</p>
-            <p>React</p>
-            <p>Styled components</p>
-            <p>Github</p>
+            <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript ES6</li>
+            <li>React</li>
+            <li>Styled components</li>
+            <li>Github</li>
+            </ul>
             </div>
 
             <div className="toolbox-skills">
             <h3>Toolbox</h3>
-            <p>Adobe Photoshop</p>
-            <p>Lightroom</p>
-            <p>Figma</p>
-            <p>Slack</p>
+            <ul>
+            <li>Adobe Photoshop</li>
+            <li>Lightroom</li>
+            <li>Figma</li>
+            <li>Slack</li>
+            </ul>
             </div>
 
             <div className="upcoming-skills">
             <h3>Upcoming</h3>
-            <p>Node.js</p>
-            <p>Typescript</p>
-            <p>AI Tools</p>
-            <p>Adobe Illustrator</p>
-            <p>Tailwind CSS</p>
+            <ul>
+            <li>Node.js</li>
+            <li>Typescript</li>
+            <li>AI Tools</li>
+            <li>Adobe Illustrator</li>
+            <li>Tailwind CSS</li>
+            </ul>
             </div>
             
             <div className="more-skills">
             <h3>Personal Skills</h3>
-            <p>UI Design</p>
-            <p>Problem Solving</p>
-            <p>Responsive Design</p>
-            <p>Web Development</p>
-            <p>Concept Thinking</p>
-            <p>Adobe Photoshop</p>
-            <p>Lightroom</p>
+            <ul>
+            <li>UI Design</li>
+            <li>Problem Solving</li>
+            <li>Responsive Design</li>
+            <li>Web Development</li>
+            <li>Concept Thinking</li>
+            <li>Adobe Photoshop</li>
+            <li>Lightroom</li>
+            </ul>
             </div>
             
           </div>

@@ -23,14 +23,18 @@ function Hero() {
         </div>
 
             <div className="social-links">
+                <a href="https://www.linkedin.com/in/bergalou" target="_blank" rel="noreferrer" className="social-link">
                 <img src="./assets/Linkedin2.png"
                 alt="Linkedin"
                 className="social-icon"
                 />
+                </a>
+                <a href="https://github.com/BergaLou" target="_blank" rel="noreferrer" className="social-link">
                 <img src="./assets/Github2.png"
                 alt="Github"
                 className="social-icon"
                 />
+                </a>
             </div>
 
             <div className="hero-text-wrapper">

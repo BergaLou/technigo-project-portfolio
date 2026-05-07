@@ -29,6 +29,11 @@ body, html {
     min-height: 40rem;
 }
 
+.footer-wrapper {
+    padding-bottom: 3rem;
+    background-color: #283440;
+}
+
 .footer-intro-content {
     flex: 1;
     padding: 4rem 10%;
@@ -51,28 +56,64 @@ body, html {
 }
 
 .contact-info {
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 1.3rem;
     font-weight: 300;
+    letter-spacing: 0.1rem;
     max-width: 50rem;
     z-index: 4;
 }
 
+.contact-info h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem;
+    text-transform: none;
+    font-variant: normal;
+    letter-spacing: 0.2rem;
+}
+
+.contact-info p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    margin: 0.5rem;
+}
+
 .contact-info a {
+    display: inline-block;
     color: #fff;
     text-decoration: none;
+    letter-spacing: 0.3rem;
     transition: all 0.3s ease;
     opacity: 0.9;
 }
 
 .contact-info a:hover{
     opacity: 1;
-    transform: scale(3) !important;
-    text-decoration: underline;
-    cursor: pointer !important; 
+    transform: scale(3);
+    transform: translateX(0.5rem);
+}
+
+    .social-links-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0.8rem;
+    padding-right: 0;
+    gap: 1.3rem;
+    z-index: 10;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.342));
+}
+
+.social-links-footer img, .social-links-footer svg {
+    filter: brightness(0) invert(1); 
+    width: 3rem;
 }
 
 .portfolio-footer-img {
+    position: relative;
     flex: 0.8;
     justify-content: center;
     align-self: center;
@@ -85,3 +126,72 @@ body, html {
     max-width: 55rem;
     z-index: 2;
 }
+
+.signature-wrapper {
+    position: absolute;
+    z-index: 20;
+    right: 15%;
+    bottom: -2rem;
+}
+
+.signature-image {
+    display: block;
+    width: 17rem;
+    max-width: 20rem;
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+    transform: rotate(-12deg);
+}
+
+@media (max-width: 37.49rem) {
+    .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    gap: 2rem;
+    }
+
+    .portfolio-footer-img img {
+    width: 25rem;
+    max-width: 35rem;
+    z-index: 2;
+}
+
+.signature-wrapper {
+    position: relative;
+    left: 15%;
+    bottom: 6rem;
+    z-index: 20;
+}
+
+.signature-image {
+    display: block;
+    width: 12rem;
+    max-width: 20rem;
+    margin: 1rem 0;
+    transform: rotate(-12deg);
+}
+
+}
+
+@media (min-width: 37.5rem) and (max-width: 64rem) {
+    .footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .portfolio-footer-img img {
+    width: 36rem;
+    max-width: 40rem;
+    z-index: 2;
+}
+
+.signature-wrapper {
+    position: relative;
+    z-index: 20;
+    left: 12%;
+    bottom: 5rem;
+}
+}
+
