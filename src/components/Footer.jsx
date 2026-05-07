@@ -16,8 +16,8 @@ function Footer() {
 
                 <div className="contact-info">
                     <h3>Clara Högberg</h3>
-                        <p>+46(0)734 666 069 (SMS) </p>
-                    <a href="mailto:Clara.Hogberg1993@gmail.com">clara.hogberg1993@gmail.com</a>
+                        <p>+46(0)XXXX XXX XXX (SMS) </p>
+                    <a href="mailto:XXX">bergalou@gmail.com</a>
                 <div className="social-links-footer">
                 <a href="https://www.linkedin.com/in/bergalou" target="_blank" rel="noreferrer" className="social-link-footer">
                 <img src={linkedinlogo}
