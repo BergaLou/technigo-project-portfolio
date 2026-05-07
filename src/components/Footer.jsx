@@ -3,6 +3,7 @@ import "./Footer.css";
 import lastphoto from '../../assets/portratt3.png';
 import linkedinlogo from '../../assets/linkedin2.png';
 import githublogo from '../../assets/github2.png';
+import signature from '../../assets/Underskriftet.png'
 
 function Footer() {
     return (
@@ -38,7 +39,7 @@ function Footer() {
                 />
                 </div>
             <div className="signature-wrapper">
-              <img src="./assets/Underskriftet.png" alt="My signature" className="signature-image"
+              <img src={signature} alt="My signature" className="signature-image"
             />
             </div>
             </section>
