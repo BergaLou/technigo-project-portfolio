@@ -146,24 +146,23 @@ body, html {
 
 @media (max-width: 37.49rem) {
     .footer-container {
-    border: 5px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 2rem !important;
+    padding: 5rem 2rem;
     gap: 2rem;
     min-width: auto;
     }
 
     .footer-intro-content {
-    padding: 0 !important;
+    padding: 0;
     width: 100%;
     }
 
     .footer-intro-text {
     font-size: 1.4rem;
     text-align: left;
-    padding: 0 !important;
+    padding: 0;
     }
 
     .portfolio-footer-img img {
@@ -178,13 +177,13 @@ body, html {
 
     .contact-info,
     .contact-info p {
-    width: 100% !important;
+    width: 100%;
     font-size: 0.8rem;
     }
 
 .footer-intro-text,
 .contact-info {
-    width: 100% !important;
+    width: 100%;
 }
 
 .signature-wrapper {
